@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- Decorative hexagonal pattern for data science theme -->
+  <path d="M100 100 L150 70 L200 100 L200 150 L150 180 L100 150 Z" fill="#e9ecef" opacity="0.5"/>
+  <path d="M300 200 L350 170 L400 200 L400 250 L350 280 L300 250 Z" fill="#e9ecef" opacity="0.5"/>
+  <path d="M1520 800 L1570 770 L1620 800 L1620 850 L1570 880 L1520 850 Z" fill="#e9ecef" opacity="0.5"/>
+  <path d="M1720 600 L1770 570 L1820 600 L1820 650 L1770 680 L1720 650 Z" fill="#e9ecef" opacity="0.5"/>
+  
+  <!-- Main Title Box -->
+  <rect x="360" y="100" width="1200" height="120" rx="15" fill="#007bff" opacity="0.9"/>
+  <text x="960" y="180" font-family="Arial" font-size="72" fill="white" text-anchor="middle">
+    Diabetes Prediction Models
+  </text>
+  
+  <!-- Left Model Visualization - Decision Tree -->
+  <rect x="200" y="300" width="600" height="600" rx="10" fill="white" stroke="#dee2e6" stroke-width="2"/>
+  <!-- Simple tree visualization -->
+  <path d="M500 400 L300 500 M500 400 L700 500" stroke="#20c997" stroke-width="4" fill="none"/>
+  <path d="M300 500 L200 600 M300 500 L400 600" stroke="#20c997" stroke-width="4" fill="none"/>
+  <path d="M700 500 L600 600 M700 500 L800 600" stroke="#20c997" stroke-width="4" fill="none"/>
+  <circle cx="500" cy="400" r="30" fill="#20c997"/>
+  <circle cx="300" cy="500" r="30" fill="#20c997"/>
+  <circle cx="700" cy="500" r="30" fill="#20c997"/>
+  
+  <!-- Right Model Visualization - Logistic Regression -->
+  <rect x="1120" y="300" width="600" height="600" rx="10" fill="white" stroke="#dee2e6" stroke-width="2"/>
+  <!-- Sigmoid curve -->
+  <path d="M1220 600 Q1420 300 1620 600" stroke="#dc3545" stroke-width="4" fill="none"/>
+  <circle cx="1420" cy="450" r="8" fill="#dc3545"/>
+  <circle cx="1320" cy="550" r="8" fill="#dc3545"/>
+  <circle cx="1520" cy="550" r="8" fill="#dc3545"/>
+  
+  <!-- Model Labels -->
+  <text x="500" y="950" font-family="Arial" font-size="36" fill="#212529" text-anchor="middle">Decision Tree</text>
+  <text x="1420" y="950" font-family="Arial" font-size="36" fill="#212529" text-anchor="middle">Logistic Regression</text>
+  
+  <!-- Accuracy Metrics -->
+  <text x="500" y="850" font-family="Arial" font-size="24" fill="#495057" text-anchor="middle">AUC: 0.85</text>
+  <text x="1420" y="850" font-family="Arial" font-size="24" fill="#495057" text-anchor="middle">AUC: 0.83</text>
+  
+  <!-- Medical Symbol -->
+  <path d="M960 980 L960 1020 M940 1000 L980 1000" stroke="#6c757d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="960" cy="1000" r="30" stroke="#6c757d" stroke-width="4" fill="none"/>
+</svg>
